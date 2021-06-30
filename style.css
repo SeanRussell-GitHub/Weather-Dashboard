@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, yellow, red);
+}
+
+.search{    
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    padding: 5px;
+    background-color: rgb(168, 197, 187);
+    border: 1px solid #0000FF;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.search1{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    padding: 5px;
+    background-color: rgb(168, 197, 187);
+    border: 1px solid #0000FF;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.btn-outline-secondary{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    padding: 5px;
+    background-color: rgb(168, 197, 187);
+    border: 1px solid #0000FF;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#forecast{
+    visibility: hidden;
+    top: 5px;
+    right: 52px;
+    margin-right: 80%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    padding: 3px;
+    background-color: rgb(168, 197, 187);
+    border: 1px solid #0000FF;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#cards{
+    font-size: small;
+}
+
+#historyBtns{
+    visibility: visible;
+    font-size: xx-small;
+    top: 50%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.currentWeather{
+    visibility: hidden;
+    /* display: inline-block; */
+    position: absolute;
+    top: 3%;
+    margin-left: 65%;
+    margin-right: 17%;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(168, 197, 187);
+    border: 1px solid #0000FF;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.uviRed{
+    position: absolute;
+    top: 33%;
+    right: 52px;
+    margin-right: 17%;
+    margin-left: 50%;
+    padding: 5px;
+    border: 1px solid #0000FF;
+    background-color: red;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.uviOrng{
+    position: absolute;
+    top: 33%;
+    right: 52px;
+    margin-right: 17%;
+    margin-left: 50%;
+    padding: 5px;
+    border: 1px solid #0000FF;
+    background-color: orange;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.uviYllw{
+    position: absolute;
+    top: 33%;
+    right: 52px;
+    margin-right: 17%;
+    margin-left: 50%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px;
+    border: 1px solid #0000FF;
+    background-color: yellow;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.uviGrn{
+    position: absolute;
+    top: 33%;
+    right: 52px;
+    margin-right: 17%;
+    margin-left: 50%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px;
+    border: 1px solid #0000FF;
+    background-color: green;
+    border-radius: 5px 5px / 5px 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* Float five columns side by side */
+  .column {
+    float: left;
+    margin-left: 2%;
+    width: 130px;
+    padding: 0 2px;
+  }
+
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;
+    visibility: hidden;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(168, 197, 187);
+}
+
+#searchHistory1{
+    visibility: hidden;
+}
+
+#searchHistory2{
+    visibility: hidden;
+}
+
+#searchHistory3{
+    visibility: hidden;
+}
+
+#searchHistory4{
+    visibility: hidden;
+} 

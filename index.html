@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    
+<body><br>
+    <span class='search1'> Search for a city: </span><br>
+    <input id='search-btn' class='search'>
+    <div>
+        <button class="btn btn-outline-secondary" type="button" id="search1">Search</button>
+    </div>
+        <div class="currentWeather" id="h1El"></div>
+        <div class="currentWeather" id="h2El"></div>
+        <br><br><br>
+        <div id="forecast">
+            <span> 5 day forecast: </span>
+        </div>
+        <br>
+        <div class="row" id="cards">
+            <div class="column">
+                <div class="card" id="day1"> Day 1 </div>
+            </div>
+            <div class="column">
+                <div class="card" id="day2"> Day 2 </div>
+            </div>
+            <div class="column">
+                <div class="card" id="day3"> Day 3 </div>
+            </div>
+            <div class="column">
+                <div class="card" id="day4"> Day 4 </div>
+            </div>
+            <div class="column">
+                <div class="card" id="day5"> Day 5 </div>
+            </div>
+        </div><br>
+        <div class="historyBtns">
+                <button class="btn btn-outline-secondary" type="button" id="searchHistory1">
+                </button>
+                <button class="btn btn-outline-secondary" type="button" id="searchHistory2">
+                </button>            
+                <button class="btn btn-outline-secondary" type="button" id="searchHistory3">
+                </button>            
+                <button class="btn btn-outline-secondary" type="button" id="searchHistory4">
+                </button>
+       </div>
+
+        <script src="script.js"></script>
 </body>
 </html>
