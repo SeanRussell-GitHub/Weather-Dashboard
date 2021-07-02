@@ -1,14 +1,7 @@
 const btn = document.querySelector('.btn');
+
 var x = 0;
 var array=[];
-
-// function handlePreviousSearches(){
-//     const buttonElements = document.querySelectorAll(".historyBtns > button");
-//     // buttonElements.addEventListener('click', function getWeatherByCity(){
-//     // });
-//     console.log(buttonElements.value);
-// }
-
 
 function getWeatherByCity(city){
     
@@ -111,23 +104,31 @@ function getWeatherByCity(city){
     console.log('Button Clicked');
 };
 
-function handlePreviousSearches(){
+function handleSearches(){
     let cityName = document.getElementById('search-btn').value;
+    console.log("hi");
     getWeatherByCity(cityName);
 };
 
-function handlePreviousBtnSrch(){
-    let srchBtn = historyOne.value;
-    console.log("hello");
-    console.log(srchBtn);
-    getWeatherByCity(srchBtn);
-};
 
-btn.addEventListener('click', handlePreviousSearches);
+btn.addEventListener('click', handleSearches);
 
-let historyOne = document.getElementById("searchHistory1")
-historyOne.addEventListener('click', handlePreviousBtnSrch);
-document.getElementById("searchHistory2").addEventListener('click', handlePreviousBtnSrch);
-document.getElementById("searchHistory3").addEventListener('click', handlePreviousBtnSrch);
-document.getElementById("searchHistory4").addEventListener('click', handlePreviousBtnSrch);
+
+document.getElementById("searchHistory1").addEventListener("click", function() {
+    getWeatherByCity(array[0]);
+  });
+  
+document.getElementById("searchHistory2").addEventListener("click", function() {
+    getWeatherByCity(array[1]);
+  });
+
+  
+document.getElementById("searchHistory3").addEventListener("click", function() {
+    getWeatherByCity(array[2]);
+  });
+
+  
+document.getElementById("searchHistory1").addEventListener("click", function() {
+    getWeatherByCity(array[3]);
+  });
 
