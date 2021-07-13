@@ -1,8 +1,10 @@
 # Weather-Dashboard
 
-
+deployed url:
 https://seanrussell-github.github.io/Weather-Dashboard/
 
+GitHub url:
+https://github.com/SeanRussell-GitHub/Weather-Dashboard.git
 
 Creating a weather dashboard including temp, forecast, etc.,  
 Used Javascript, Cascading Style Sheet, and HTML
